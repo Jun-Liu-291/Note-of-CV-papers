@@ -27,3 +27,11 @@ link: https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convol
 
 6. Training
   6.1 batch size = 128, momentum = 0.9, weight decay = 0.0005 ? 
+  6.2 Initialize parameters: weight 0 mean Gaussain distribution with standard variance equals to 0.01
+                             bias = 1 in second, forth, fifth CNN-layers as well as fully-connected layers, which accelerate the first                                stage learning
+                             bias = 0 for remaining layers
+  6.3 Learning rate: apply same learning rate to each layers, but adjust it manually throught training
+                     moniotr = 'val_acc', if stop improving, than LR := LR / 10, LR start at 0.01
+                     
+7. Result
+  
