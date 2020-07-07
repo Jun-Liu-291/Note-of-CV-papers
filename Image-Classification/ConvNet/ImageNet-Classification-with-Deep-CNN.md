@@ -34,4 +34,6 @@ link: https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convol
                      moniotr = 'val_acc', if stop improving, than LR := LR / 10, LR start at 0.01
                      
 7. Result
+  7.1 check the top-n classification of the prediction, to see if they are reasonable guess.
+  7.2 check the Euclidean separation of the output of last hidden layer, if it is small distance, the NN will have higher possiblity that they are same category
   
