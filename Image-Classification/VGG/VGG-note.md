@@ -16,4 +16,5 @@ This work investigate the effect of the CNN depth on its accuracy in the large-s
 
 3. Testing
   Test image size is not necessarily equal to the training scale S
-    
+  Top-1 error: the propotion of the images' prediction are wrong
+  Top-5 error: when the ground truth category is not in the top-5 prediction of the model, then it will be counted as wrong predition
