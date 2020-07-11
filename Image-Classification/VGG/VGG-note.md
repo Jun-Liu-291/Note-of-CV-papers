@@ -13,4 +13,7 @@ This work investigate the effect of the CNN depth on its accuracy in the large-s
 2. Training
   a. Initialize parameters:
     training a shallow CNN model by random initialize with fully-connected layers, don't change LR while trianing.
+
+3. Testing
+  Test image size is not necessarily equal to the training scale S
     
