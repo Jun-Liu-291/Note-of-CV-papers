@@ -1,2 +1,2 @@
 
-Here are some notes of Computer Visions paper.
+## This is the collection of dayly note of Deep Learning & Computer Vision
