@@ -25,3 +25,10 @@
   <div align=center><img src="https://miro.medium.com/max/357/1*oePAhrm74RNnNEolprmTaQ.png"/></div>
   Derivative Function:
   <div align=center><img src="https://github.com/Jun-Liu-291/Note-of-DL/blob/master/Deep-Learning-Basis/Activation-Function/img/ReLu%20Derivative.PNG"/></div>
+  
+  In this condition, when we use ReLu as our activation function, we will get either 1 or 0 during backpropogation. If we get too much value are equal to 0, what will happen? Then we will not get any update in backporopogation, which is also called death ReLu
+  
+  1. advantage:
+    a. Introduce Sparcity: decrease the time and space complexity; Does not involve exponential calculations. 
+    '''diff
+    what is sparcity in Deep Learning
