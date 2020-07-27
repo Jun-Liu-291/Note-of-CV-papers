@@ -13,4 +13,4 @@
 
 ## Gradient Explosion
   Gradient explosion is the opposite problem of gradient vanishing.<br>
-  Basicly, when 0<w<1, we might have gradient vanishing problem, since when model get deeper
+  Basicly, when 0<w<1, we might have gradient vanishing problem. Since when model get deeper, if all w are in (0,1), the update of parameters will get smaller and smaller. when w>0, we have a bigger chance to have gradient explosion problems. When one specific layer has one kind of problems, there will absolutely be more weights have the same problem.
