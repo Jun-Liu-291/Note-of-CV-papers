@@ -30,5 +30,4 @@
   
   1. advantage:
     a. Introduce Sparcity: decrease the time and space complexity; Does not involve exponential calculations. 
-    '''diff
-    what is sparcity in Deep Learning
+    <font color=Red>What is sparcity in Deep Learning?</font>
