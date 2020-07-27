@@ -23,3 +23,5 @@
   Full name: rectified linear unit
   <div align=center><img src="https://github.com/Jun-Liu-291/Note-of-DL/blob/master/Deep-Learning-Basis/Activation-Function/img/ReLu.PNG"/></div>
   <div align=center><img src="https://miro.medium.com/max/357/1*oePAhrm74RNnNEolprmTaQ.png"/></div>
+  Derivative Function:
+  <div align=center><img src="https://github.com/Jun-Liu-291/Note-of-DL/blob/master/Deep-Learning-Basis/Activation-Function/img/ReLu%20Derivative.PNG"/></div>
