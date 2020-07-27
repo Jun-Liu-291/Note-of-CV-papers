@@ -13,4 +13,11 @@
 
 ## Gradient Explosion
   Gradient explosion is the opposite problem of gradient vanishing.<br>
-  Basicly, when 0<w<1, we might have gradient vanishing problem. Since when model get deeper, if all w are in (0,1), the update of parameters will get smaller and smaller. when w>0, we have a bigger chance to have gradient explosion problems. When one specific layer has one kind of problems, there will absolutely be more weights have the same problem.
+  Basicly, when 0<w<1, we might have gradient vanishing problem. Since when model get deeper, if all w are in (0,1), the update of parameters will get smaller and smaller. when w>0, we have a bigger chance to have gradient explosion problems. Because the function of caculate derivative of weights has the component of weights in last layers. When one specific layer has one kind of problems, there will absolutely be more weights have the same problem.<br> 
+
+  ### how to solve this problem
+    Set a threshold: if the gradient is bigger then this threhold then apply Gradient clipping or gradient specification
+    But this method will not solve gradient vanishing problem.
+    
+ ## Relu Function
+  
