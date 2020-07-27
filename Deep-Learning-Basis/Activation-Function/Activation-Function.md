@@ -31,3 +31,8 @@
   1. advantage:
     a. Introduce Sparcity: decrease the time and space complexity; Does not involve exponential calculations. 
     <font color=#008000>What is sparcity in Deep Learning?</font>
+    b. Avoid gradient vanishing problem
+   
+  2. disadvantage:
+    a. Involve death ReLu problem, most part of the model will not be updated, but some time, this will be an assist
+    b. Can not avoid Gradient Explosion problem
