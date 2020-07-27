@@ -22,4 +22,4 @@
  ## Relu Function
   Full name: rectified linear unit
   <div align=center><img src="https://github.com/Jun-Liu-291/Note-of-DL/blob/master/Deep-Learning-Basis/Activation-Function/img/ReLu.PNG"/></div>
-  <div align=center><img src=https://www.google.ca/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40kanchansarkar%2Frelu-not-a-differentiable-function-why-used-in-gradient-based-optimization-7fef3a4cecec&psig=AOvVaw2cKiy86alSP4erturPSgiW&ust=1595907082715000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICuj6m_7OoCFQAAAAAdAAAAABAD"/></div>
+  <div align=center><img src="https://miro.medium.com/max/357/1*oePAhrm74RNnNEolprmTaQ.png"/></div>
