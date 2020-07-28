@@ -41,4 +41,4 @@
   <div align=center><img src="https://github.com/Jun-Liu-291/Note-of-DL/blob/master/Deep-Learning-Basis/Activation-Function/img/ELU.PNG"/></div>
   <div align=center><img src="https://support.dl.sony.com/wp-content/uploads/2017/08/13143208/layer_6_6_elu.png"/></div>
   Derivative Function:
-  <div align=center><img src="https://github.com/Jun-Liu-291/Note-of-DL/blob/master/Deep-Learning-Basis/Activation-Function/img/ELU%20derivatie.PNG/></div>
+  <div align=center><img src="https://github.com/Jun-Liu-291/Note-of-DL/blob/master/Deep-Learning-Basis/Activation-Function/img/ELU%20derivatie.PNG"/></div>
