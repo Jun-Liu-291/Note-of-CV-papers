@@ -36,3 +36,6 @@
   2. disadvantage:
     a. Involve death ReLu problem, most part of the model will not be updated, but some time, this will be an assist
     b. Can not avoid Gradient Explosion problem
+    
+## ELU(Exponential linear unit)
+  <div align=center><img src="https://github.com/Jun-Liu-291/Note-of-DL/blob/master/Deep-Learning-Basis/Activation-Function/img/ELU.PNG"/></div>
