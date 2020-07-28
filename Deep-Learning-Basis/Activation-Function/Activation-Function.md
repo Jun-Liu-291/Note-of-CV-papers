@@ -42,3 +42,12 @@
   <div align=center><img src="https://support.dl.sony.com/wp-content/uploads/2017/08/13143208/layer_6_6_elu.png"/></div>
   Derivative Function:
   <div align=center><img src="https://github.com/Jun-Liu-291/Note-of-DL/blob/master/Deep-Learning-Basis/Activation-Function/img/ELU%20derivatie.PNG"/></div>
+  1. advantage:
+    a. avoid death relu problem
+    b. When input values are negative, we still can get non-zero outputs, then we can update weights and bias
+  2. disadvantage:
+    a. contains exponetial caculation, make the caculation time longer
+    b. can't avoid gradient explosion problems
+    c. we need to pre-set the a value (not a trainable value)
+ 
+ ##
