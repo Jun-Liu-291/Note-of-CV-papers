@@ -30,7 +30,7 @@
   
   1. advantage:<br>
     a. Introduce Sparcity: decrease the time and space complexity; Does not involve exponential calculations. <br>
-    <font color=#008000>What is sparcity in Deep Learning?</font>
+    <font color=#008000>What is sparcity in Deep Learning?</font><br>
     b. Avoid gradient vanishing problem
    
   2. disadvantage:<br>
@@ -50,4 +50,16 @@
     b. can't avoid gradient explosion problems<br>
     c. we need to pre-set the a value (not a trainable value)
  
- ##
+ ## Leaky ReLu
+  <div align=center><img src="https://github.com/Jun-Liu-291/Note-of-DL/blob/master/Deep-Learning-Basis/Activation-Function/img/Leaky%20ReLu.PNG"/></div>
+  <div align=center><img src="https://www.i2tutorials.com/wp-content/uploads/2019/09/Deep-learning-25-i2tutorials.png"/></div>
+  Derivative Function:
+  <div align=center><img src="https://github.com/Jun-Liu-291/Note-of-DL/blob/master/Deep-Learning-Basis/Activation-Function/img/Leaky%20ReLu%20derivative.PNG"/></div>
+  1. advantage:<br>
+    a. avoid death relu problem<br>
+    b. When input values are negative, we still can get non-zero outputs, then we can update weights and bias<br>
+    c. Doesn't contain exponential caculation, faster then ELU
+  2. disadvantage:<br>
+    a. both positve part and negative part are linear, but we prefer non-linear activation
+    b. can't avoid gradient explosion problems<br>
+    c. we need to pre-set the a value (not a trainable value)
