@@ -28,12 +28,12 @@
   
   In this condition, when we use ReLu as our activation function, we will get either 1 or 0 during backpropogation. If we get too much value are equal to 0, what will happen? Then we will not get any update in backporopogation, which is also called death ReLu
   
-  1. advantage:
+  1. advantage:<br>
     a. Introduce Sparcity: decrease the time and space complexity; Does not involve exponential calculations. <br>
     <font color=#008000>What is sparcity in Deep Learning?</font>
     b. Avoid gradient vanishing problem
    
-  2. disadvantage:
+  2. disadvantage:<br>
     a. Involve death ReLu problem, most part of the model will not be updated, but some time, this will be an assist.<br>
     b. Can not avoid Gradient Explosion problem
     
@@ -42,10 +42,10 @@
   <div align=center><img src="https://support.dl.sony.com/wp-content/uploads/2017/08/13143208/layer_6_6_elu.png"/></div>
   Derivative Function:
   <div align=center><img src="https://github.com/Jun-Liu-291/Note-of-DL/blob/master/Deep-Learning-Basis/Activation-Function/img/ELU%20derivatie.PNG"/></div>
-  1. advantage:
+  1. advantage:<br>
     a. avoid death relu problem<br>
     b. When input values are negative, we still can get non-zero outputs, then we can update weights and bias
-  2. disadvantage:
+  2. disadvantage:<br>
     a. contains exponetial caculation, make the caculation time longer<br>
     b. can't avoid gradient explosion problems<br>
     c. we need to pre-set the a value (not a trainable value)
