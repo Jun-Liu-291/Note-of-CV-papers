@@ -62,9 +62,11 @@
   2. disadvantage:<br>
     a. both positve part and negative part are linear, but we prefer non-linear activation
     b. can't avoid gradient explosion problems<br>
-    c. we need to pre-set the a value (not a trainable value)
+    c. we need to pre-set the a value (not a trainable value)<br>
+    
 ## SELU(Scaled Exponential Linear Unit)
   <div align=center><img src="https://github.com/Jun-Liu-291/Note-of-DL/blob/master/Deep-Learning-Basis/Activation-Function/img/SELU.PNG"/></div>
   where in the paper:<br>
   <div align=center><img src="https://pic3.zhimg.com/80/v2-88211966c09f79ed8d5b6ce3eda7733c_720w.jpg"/></div>
-  <div align=center><img src="https://pic3.zhimg.com/80/v2-88211966c09f79ed8d5b6ce3eda7733c_720w.jpg/></div>
+  <div align=center><img src="https://pic3.zhimg.com/80/v2-88211966c09f79ed8d5b6ce3eda7733c_720w.jpg"/></div>
+  <div align=center><img src="https://pytorch.org/docs/master/_images/SELU.png"/></div>
