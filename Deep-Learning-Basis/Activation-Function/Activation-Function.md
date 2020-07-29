@@ -80,3 +80,6 @@
   2. disadvantage:<br>
     a. we still need more research in applying SELU in CNN model.
   
+## GELU
+  <div align=center><img src="https://github.com/Jun-Liu-291/Note-of-DL/blob/master/Deep-Learning-Basis/Activation-Function/img/GELU.PNG"/></div>
+  <div align=center><img src="https://i.stack.imgur.com/tJI3j.png"/></div>
