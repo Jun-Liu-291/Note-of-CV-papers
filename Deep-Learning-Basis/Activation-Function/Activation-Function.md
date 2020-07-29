@@ -69,3 +69,6 @@
   where in the paper:<br>
   <div align=center><img src="https://pic3.zhimg.com/80/v2-88211966c09f79ed8d5b6ce3eda7733c_720w.jpg"/></div>
   <div align=center><img src="https://pytorch.org/docs/master/_images/SELU.png"/></div>
+  
+  Derivative Function:
+  <div align=center><img src="https://github.com/Jun-Liu-291/Note-of-DL/blob/master/Deep-Learning-Basis/Activation-Function/img/SELU%20derivative.PNG"/></div>
