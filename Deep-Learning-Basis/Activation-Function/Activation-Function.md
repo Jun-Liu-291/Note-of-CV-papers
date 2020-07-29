@@ -71,4 +71,12 @@
   <div align=center><img src="https://pytorch.org/docs/master/_images/SELU.png"/></div>
   
   Derivative Function:
-  <div align=center><img src="https://github.com/Jun-Liu-291/Note-of-DL/blob/master/Deep-Learning-Basis/Activation-Function/img/SELU%20derivative.PNG"/></div>
+  <div align=center><img src="https://github.com/Jun-Liu-291/Note-of-DL/blob/master/Deep-Learning-Basis/Activation-Function/img/SELU%20derivative.PNG"/></div><nr>
+  When actually applying this activation function, we should use lecun normal to initialize the model, when applying dropout, we should use Alphadropout.<br>
+  When we using lecun normal to initialize the model, all the model will be normal distribution, and after apply input to SELU actication function, we will also get the outputs with 0 mean and 1 varience. Since if input is smaller than 0, it will decrease the varience, and if the input is larger than 0, it will increase the varience; and we got both positive and negative, then we can get 0 mean.<br>
+  1. advantage:<br>
+    a. internel nomalization: which can let the model converge more quick.<br>
+    b. There will not be gradient vanishing or gradient explosion problem<br>
+  2. disadvantage:<br>
+    a. we still need more research in applying SELU in CNN model.
+  
