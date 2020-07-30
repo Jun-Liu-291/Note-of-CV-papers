@@ -83,3 +83,11 @@
 ## GELU
   <div align=center><img src="https://github.com/Jun-Liu-291/Note-of-DL/blob/master/Deep-Learning-Basis/Activation-Function/img/GELU.PNG"/></div>
   <div align=center><img src="https://i.stack.imgur.com/tJI3j.png"/></div>
+  Derivative function:
+  <div align=center><img src="https://github.com/Jun-Liu-291/Note-of-DL/blob/master/Deep-Learning-Basis/Activation-Function/img/GELU%20derivative.PNG"/></div>
+  
+  1. advantage:<br>
+    a. especially good for NLP and transformer model.
+    b. avoid gradient vanishing problem
+  2. disadvantage:<br>
+    a. pretty new active function, need more research.
