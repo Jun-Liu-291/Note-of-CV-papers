@@ -12,3 +12,5 @@ link: https://arxiv.org/pdf/1506.02640.pdf
   * Yolo learns generalizable representations of objects.
 
 # Unified Detection
+
+* system divides the input image into an $S$\times$S$
