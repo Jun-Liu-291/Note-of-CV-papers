@@ -32,7 +32,7 @@ link: https://arxiv.org/pdf/1506.02640.pdf
 * final layer predicts both class probabilities and bounding box coorinates. Normalize the bounding box width and height by the image width and height. Parametrize the bounding box *x* and *y* coordinates to be offsets of a particular grid cell location.
 * apply activation function for the final layer and all the other layers use the leaky Relu activatoin: a = 0.1
 * loss: sum-squared error. 
-<div align=center><img width="400" height="100" src="https://github.com/Jun-Liu-291/Note-of-DL/blob/master/Object-detection/images/Yolo%20loss%20function.PNG"/></div>
+<div align=center><img width="400" height="300" src="https://github.com/Jun-Liu-291/Note-of-DL/blob/master/Object-detection/images/Yolo%20loss%20function.PNG"/></div>
   * disadvantage: </br>
     1. does not perfectly align with the goal of maximizing average precision. </br>
     2. in every image many grid cells do not contain any object, which push the confidence scores of those cells towards 0, oftheb overpowering the gradient from cells that do contain objects.</br>
