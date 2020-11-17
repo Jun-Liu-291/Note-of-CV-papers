@@ -27,4 +27,4 @@ link: https://arxiv.org/pdf/1506.02640.pdf
 
 # Training
 
-* Pretrain the Conv layers on the ImageNet 1000-class competition dataset. Use <mark>Darknet</mark> framwork for all training and inference.
+* Pretrain the Conv layers on the ImageNet 1000-class competition dataset. Use <span style="background-color: #FFFF00">Darknet</span> framwork for all training and inference.
