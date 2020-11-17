@@ -32,7 +32,14 @@ link: https://arxiv.org/pdf/1506.02640.pdf
 * final layer predicts both class probabilities and bounding box coorinates. Normalize the bounding box width and height by the image width and height. Parametrize the bounding box *x* and *y* coordinates to be offsets of a particular grid cell location.
 * apply activation function for the final layer and all the other layers use the leaky Relu activatoin: a = 0.1
 * loss: sum-squared error. 
+<div align=center><img width="400" height="100" src="https://github.com/Jun-Liu-291/Note-of-DL/blob/master/Object-detection/images/Yolo%20loss%20function.PNG"/></div>
   * disadvantage: </br>
     1. does not perfectly align with the goal of maximizing average precision. </br>
-    2. in every image many grid cells do not contain any object, which push the confidence scores of those cells towards 0, oftheb overpowering the gradient from cells that do contain objects.
-  * Remdy:
+    2. in every image many grid cells do not contain any object, which push the confidence scores of those cells towards 0, oftheb overpowering the gradient from cells that do contain objects.</br>
+    3. equally weights errors in large boxes and small boxes, while small deviations in large boxes matter less than in small boxes
+  * Remdy:</br>
+    2. increase the loss from bounding box coordinate predictions and decrease the loss from confidence predictions for boxes that don't contain objects. Use two parameters to complish this 5 and .5.</br>
+    3. partially address large box and small box, we predict the quare root of the bounding box width and height instead of the width and height directly.
+* each grid cell has multiple BB. At training time, each predictor gets better at prediction certain sizes, aspect ratios, or classes of object, improving overall recall.
+
+    
