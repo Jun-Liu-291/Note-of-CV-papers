@@ -20,3 +20,11 @@ https://arxiv.org/pdf/1609.04802.pdf</br>
 
 ### 1.1 Related work
 #### 1.1.1 Image super-resolution
+ * Prediction-based methods were among the first methods to tackle SISR
+ * More powerful approaches aim to establish a complex mapping between low- and high-resolution image information and usually rely on training data.
+ * Recent CNN based SR algorithms have shown excellent performance. While enabling the network to learn the upscaling filters directly can further increase performance both in terms of accuracy and speed.
+#### 1.1.2 Design of convolutional neural networks
+ * Batch-normalization, Deeper network architectures, residual blocks, skip-connections
+#### 1.1.3 Loss functions
+ * Pixel-wise loss functions such as MSE struggle to handle the uncertainty inherent in recovering lost high-frequency details such as texture: minimizing MSE encourages finding pixel-wise averages of plausible solutions which are typically overly-smooth and thus have poor perceptual quality.
+ * Perceptually more convincing results were obtained with loss function based on the euclidean distance between feature maps extracted from the VGG19 network for both super-resolution and artistic style-transfer.
