@@ -28,3 +28,7 @@ https://arxiv.org/pdf/1609.04802.pdf</br>
 #### 1.1.3 Loss functions
  * Pixel-wise loss functions such as MSE struggle to handle the uncertainty inherent in recovering lost high-frequency details such as texture: minimizing MSE encourages finding pixel-wise averages of plausible solutions which are typically overly-smooth and thus have poor perceptual quality.
  * Perceptually more convincing results were obtained with loss function based on the euclidean distance between feature maps extracted from the VGG19 network for both super-resolution and artistic style-transfer.
+
+### 1.2 Contribution
+ * Describe the first very deep ResNet architecture using the concept of GANs to form a perceptual loss function for photo-realistic SISR
+ * Confirm with an extensive mean opinion score text on images from three public benchmark datasets that SRGAN is the new state of the art.
