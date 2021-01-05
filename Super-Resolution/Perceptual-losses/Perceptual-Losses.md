@@ -12,3 +12,7 @@ https://arxiv.org/pdf/1603.08155.pdf
   * Example: denoising, super-resolution and colorization. from computer vision include semantic segmentation and depth estimation.
   * One approach for solving image transformation tasks is to train a feed-forward CNN in a supervised manner, using a per-pixel loss function to measure the difference between output and ground-truth images, such approaches are efficient at test-time, requiring only a forward pass through the trained network.
   * While, this per-pixel loss function do not capture *percepual* differences between output and ground-truth images.
+  * Combine the benefits of these two approaches.:
+   ** Train feed-forward *transformation networks* for image transformation tasks
+   ** Train networks using *perceptual loss functions* that depend on high-level features from a pretrained *loss netowrk*
+   ** During training, perceptual losses measure image similarities more robustly than per-pixel losses, and at test-time the transformation networks run in real-time.
