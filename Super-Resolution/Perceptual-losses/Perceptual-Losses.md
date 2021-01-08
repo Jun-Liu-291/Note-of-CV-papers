@@ -16,3 +16,14 @@ https://arxiv.org/pdf/1603.08155.pdf
    ** Train feed-forward *transformation networks* for image transformation tasks
    ** Train networks using *perceptual loss functions* that depend on high-level features from a pretrained *loss netowrk*
    ** During training, perceptual losses measure image similarities more robustly than per-pixel losses, and at test-time the transformation networks run in real-time.
+
+## Related Workd
+### Feed-forward image transformation
+ * Semantic segmentation methods
+ * Depth and surface normal estimation
+### Perceptual optimization
+ * Images can be generated to maximize class prediction scores or individual features in order to understand the functions encoded in trained networks.
+### Style Transfer
+### Image super-resolution
+
+## Method
