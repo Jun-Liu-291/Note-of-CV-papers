@@ -27,3 +27,6 @@ https://arxiv.org/pdf/1603.08155.pdf
 ### Image super-resolution
 
 ## Method
+Components</br>:
+ * image transformation network fw
+ * loss network φ
